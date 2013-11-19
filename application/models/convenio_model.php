@@ -29,4 +29,10 @@ class Convenio_model extends CI_Model {
         }
     }
 
+    public function listaConvenios() {
+        $query = "SELECT * FROM tb_convenio";
+        $r = $this->db->query($query);
+        return $r;
+    }
+
 }

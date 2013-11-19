@@ -35,8 +35,7 @@ echo validation_errors();
             </td>
         </tr>
     </table>
-
-</form>
+  </form>
 
 <?php
 if (isset($msg))
